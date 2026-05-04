@@ -1,0 +1,20 @@
+{
+  "name": "dme-backend",
+  "version": "1.0.0",
+  "description": "Decentralized Matchmaking Engine — backend service",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --runInBand --forceExit"
+  },
+  "dependencies": {
+    "@stellar/stellar-sdk": "12.3.0",
+    "express": "4.19.2",
+    "ioredis": "5.3.2",
+    "uuid": "9.0.1"
+  },
+  "devDependencies": {
+    "jest": "29.7.0",
+    "ioredis-mock": "8.9.0"
+  }
+}
